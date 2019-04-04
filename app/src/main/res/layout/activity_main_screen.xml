@@ -10,7 +10,8 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints">
 
         <!-- Nom de l'utilisateur connecté -->
         <TextView android:id="@+id/txtUserName"
@@ -34,11 +35,18 @@
             android:text="Joueurs"
             android:layout_marginTop="25dip"/>
 
+<<<<<<< HEAD
         <!--  Bouton pour afficher les groupes de l'utilisateur -->
         <Button android:id="@+id/btnViewMatch"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Match"
+=======
+        <Button android:id="@+id/btnViewClubs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mes clubs"
+>>>>>>> 09aa4ac33ce483cda37689d50c2c18b6d706b6e7
             android:layout_marginTop="25dip"/>
 
     </LinearLayout>
