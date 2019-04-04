@@ -34,5 +34,12 @@
             android:text="Joueurs"
             android:layout_marginTop="25dip"/>
 
+        <!--  Bouton pour afficher les groupes de l'utilisateur -->
+        <Button android:id="@+id/btnViewMatch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Match"
+            android:layout_marginTop="25dip"/>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
